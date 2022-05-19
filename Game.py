@@ -8,7 +8,7 @@ from tkinter import messagebox
 from tkinter.filedialog import asksaveasfile, askopenfilename
 
 
-__author__ = "(Felix Hovine)"
+__author__ = "(F Hov)"
 
 
 #------------------------------------- Parameters------------------------------------------------------------
@@ -904,7 +904,7 @@ if __name__ == '__main__' :
     
     root = tk.Tk()
     
-    app = GameApp(root,dungeon_name='game3.txt',task=TASK_TWO) # When being assessed, just remove the # and add # to the previous line.
+    app = GameApp(root,dungeon_name='game2.txt',task=TASK_TWO) # YOU CHANGE THE GAME LAYOUT HERE
     root.mainloop()
        
 
